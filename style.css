@@ -855,3 +855,17 @@ button.swiper-pagination-bullet {
     transform: rotate(360deg);
   }
 }
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #cecece;
+}
+
+.footer__link {
+  font-size: 2vw;
+  color: var(--dark);
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+}
